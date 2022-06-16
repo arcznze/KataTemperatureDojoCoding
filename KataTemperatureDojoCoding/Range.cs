@@ -35,19 +35,56 @@ namespace KataTemperatureDojoCoding
             string a = x.Substring(1, 1);
             return a;
         }
-
         string GetAllPoint(string x)
         {
             Range text = new Range(x);
-            if(FirstChar(x) == "[")
+            if (FirstChar(x) == "[")
             {
+                return a;
 
             }
             else
             {
+                return t;
+
+            }
+            if (SecondChar(x) == "(")
+            {
+                return a;
+            }
+            else
+            {
+                return t;
 
             }
         }
+        string Equals(string x)
+        {
+            Range text = new Range(x);
+            if (FirstChar(x) == "[")
+            {
+                return a;
+
+            }
+            else if ()
+            else
+                    {
+                        return t;
+
+                    }
+            if (SecondChar(x) == "(")
+            {
+                return a;
+            }
+            else
+            {
+                return t;
+
+            }
+
+
+        }
+
 
 
 
